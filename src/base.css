@@ -1,0 +1,111 @@
+
+@layer tokens {
+    :root {
+        --background-color-black: #000000;
+        --background-color-lightgrey: #fbf7f7;
+
+        --color-grey: #2b2b2b;
+        --color-white: #fff;
+
+        --text-m: 2rem;
+        --text-s: 1.5rem;
+        --text-xs: .85rem;
+
+        --spacing-l: 1rem;
+        --spacing-m: .75rem;
+        --spacing-s: .5rem;
+        --spacing-xs: .25rem;
+    }
+}
+html {
+    scroll-behavior: smooth;
+    font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto, arial, sans-serif;
+}
+html,
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background: var(--background-color-lightgrey);
+}
+
+h1, h2{
+    color: var(--color-grey);
+    font-size: var(--text-m);
+    margin-block: var(--spacing-m)
+}
+
+h2{
+    font-size: var(--text-s);
+}
+
+.container {
+    width: 550px;
+    max-width: calc(100% - 2rem);
+    margin: 0 auto;
+}
+
+section {
+    min-height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+ul{
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul li{
+    padding: 1rem;
+}
+
+.content{
+    width: 100%;
+    text-align: justify;}
+
+.cta{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+
+}
+.cta-button{
+    display: flex;
+    background-color: var(--background-color-black);
+    border-radius: .75rem;
+    color: var(--color-white);
+    border: none;
+    padding: var(--spacing-m);
+    width: 100px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+img{
+    max-width: 100%;
+}
+
+#contact p.content{
+    margin: 0 !important;
+}
+
+#contact{
+    text-align: center;
+
+}
+#contact h1, h2{
+    margin: 0;
+}
+
+#contact a.cta-button{
+    margin: 0;
+}

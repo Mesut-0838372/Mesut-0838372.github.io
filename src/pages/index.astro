@@ -7,15 +7,67 @@
 		<meta charset="utf-8" />
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 		<link rel="icon" href="/favicon.ico" />
+
+
+		<link rel="stylesheet" type="text/css" href="src/base.css"> <!--Source - https://stackoverflow.com/a/1947890 Posted by Pekka Retrieved 2026-09-15, License - CC BY-SA 2.5 -->
 		<meta name="viewport" content="width=device-width" />
 		<meta name="generator" content={Astro.generator} />
 		<title>Mesut Ozen</title>
-		<h1>Hoi, ik ben Mesut Ozen</h1>
-		<p>Ik zit in mijn laatste jaar van software developer.</p>
-		<p>Tijdens mijn opleiding heb ik geleerd om samen te werken in een groep aan een project. Op de opleiding hebben we geleerd om scrum te gebruiken. Verder Ik vind het leuk om te programmeren en problemen op te lossen. Mijn interesse ligt in front-end development, en vind het leuk om applicaties te maken. Tijdens het maken van applicaties vind ik het leuk om nieuwe dingen uit te proberen en verder te ontwikkelen.</p>
+	</head>
 
-		</head>
 	<body>
-		<h1>Astro</h1>
+		<div class="container">
+			<section class="home" id="home">
+				<h1>Hallo, Ik ben Mesut Ozen. </h1>
+				<h2>Junior software developer, interesse in front-end. </h2>
+				<p class="content">Ik heb ervaring in Python en Javascript.
+					In projecten werk ik graag samen in een informeel team, en heb een proactieve houding.
+					In mijn vrijetijd programmeer ik ook eigen projecten, voornamelijk applicaties voor de appstore.
+					Tijdens het maken van applicaties, probeer ik altijd de nieuwste technieken toe te passen.</p>
+				<div class="cta">
+					<a class="cta-button" href="#portfolio">Portfolio</a>
+				</div>
+			</section>
+
+			<section class="portfolio" id="portfolio">
+				<h1>Topdown shooter </h1>
+				<h2>Eerste project in Python en gemaakt in pygame module</h2>
+				<p class="content"><img src="public/img/img1.png" alt="Top down monster shooter"></p>
+				<a href="https://github.com/Rac-Software-Development/wp1-2025-pygame-1c3-quatro">Github</a>
+				<div class="cta">
+					<a class="cta-button" href="#access">Portfolio</a>
+				</div>
+			</section>
+
+			<section class="portfolio" id="access">
+				<h1>Accessibility website</h1>
+				<h2>Gemaakt in Python en Pygame</h2>
+				<p class="content"><img src="public/img/img-2.png" alt="Website voor Accesability, WGAC"></p>
+				<a href="https://github.com/Rac-Software-Development/wp1-2025-pygame-1c3-quatro">Github</a>
+				<div class="cta">
+					<a class="cta-button" href="#test-correct">Portfolio</a>
+				</div>
+			</section>
+
+						<section class="portfolio" id="test-correct">
+				<h1>Test Correct</h1>
+				<h2>Gemaakt in pycharm.</h2>
+				<p class="content"><img src="public/img/img-03.png" alt="Test-Correct"></p>
+				<a href="https://github.com/Rac-Software-Development/wp1-2025-pygame-1c3-quatro">Github</a>
+				<div class="cta">
+					<a class="cta-button" href="#contact">contact</a>
+				</div>
+			</section>
+
+			<section class="portfolio" id="contact">
+				<h1>Contact</h1>
+				<h2>Bel voor een afspraak</h2>
+				<p class="content"></p>
+				<div class="cta">
+					<a class="cta-button" href="#contact">Bel</a>
+				</div>
+			</section>
+
+		</div>
 	</body>
 </html>
