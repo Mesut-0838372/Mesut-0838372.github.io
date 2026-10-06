@@ -1,0 +1,18 @@
+{
+  "version": "2.6.2",
+  "release_version": "1",
+  "released_at": "2026-10-06",
+  "summary": {
+    "title": "Accessability App",
+    "owner": "Mesut",
+    "description": "Website voor WCGA",
+    "id": 0
+  },
+  "detail": {
+    "contributors": [],
+    "diagrams": [],
+    "diagramTop": 0,
+    "reviewer": "Ozen",
+    "threatTop": 0
+  }
+}
